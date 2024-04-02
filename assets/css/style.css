@@ -51,17 +51,11 @@ h1 {
     font-family: var(--headline-font);
     text-align: center;
 }
-    /* This is a small title */
-h2 {
-
-    color: var(--accent-color-bright);
-    font-family: var(--headline-font);
-    margin-top: calc(var(--spacer) / 2);
-}
-    /* These are  for all paragrah */
+     /*These are paragrah*/
 p {
     margin-bottom: var(--spacer);
     color: var(--primary-color);
+    padding: var(--spacer) var(--spacer);
 }
     /* TThese are  for three images */
 img {
@@ -90,21 +84,21 @@ header {
     background-color: var(--accent-color-dark);
 }
 
-section.buddha {
+section {
     display: flex;
     gap: var(--spacer);
     width: 80%;
     margin: var(--spacer-dbl) auto;
 }
 
-.buddha article {
+article {
     border: solid 1px var(--secondary-color);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
 }
 
 
-.buddha h2 {
+ h2 {
     text-align: center;
     background-color: var(--accent-color-dark);
     color: var(--primary-color);
@@ -112,20 +106,27 @@ section.buddha {
     padding: 0.25rem;
 }
 
-.buddha figcaption {
+figcaption {
     text-align: center;
     font-size: 30px;
     font-style: italic;
     padding: .25rem;
     color: var(--primary-color);
+    background-color: var(--accent-color-dark)
 }
 
-.buddha p {
-    padding: var(--spacer) var(--spacer); 0;
-}
-
-.buddha .btn {
+.btn {
     display: inline-block;
     margin: 0 0 var(--spacer) var(--spacer);
+}
+
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--neutral-lt-color);
+    text-align: center;
+    font-size: 30px;
+    padding: 1rem 0 .25rem;
+    margin-top: auto;
 }
 
